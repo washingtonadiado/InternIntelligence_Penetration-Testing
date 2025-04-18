@@ -1,96 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Application Penetration Testing – Task One</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2em;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    ul {
-      list-style-type: disc;
-      margin-left: 2em;
-    }
-    a {
-      color: #3498db;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 2em;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .footer {
-      margin-top: 2em;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Web Application Penetration Testing – Task One</h1>
+# Web Application Penetration Testing – Task One
 
-    <h2>Internship Program: Intern Intelligence</h2>
-    <p><strong>Platform:</strong> TryHackMe</p>
-    <p><strong>Date:</strong> April 2025</p>
+**Internship Program:** Intern Intelligence  
+**Platform:** TryHackMe  
+**Date:** April 2025
 
-    <h2>Overview</h2>
-    <p>
-      As part of my internship at <strong>Intern Intelligence</strong>, I undertook a web application penetration testing task to identify and exploit vulnerabilities in a controlled environment. Utilizing <a href="https://tryhackme.com/" target="_blank">TryHackMe</a>, I engaged in hands-on labs simulating real-world scenarios to enhance my practical cybersecurity skills.
-    </p>
+---
 
-    <h2>Objectives</h2>
-    <ul>
-      <li>Identify common web application vulnerabilities.</li>
-      <li>Exploit discovered vulnerabilities to assess potential impacts.</li>
-      <li>Document findings and provide remediation recommendations.</li>
-    </ul>
+## Table of Contents
+1. [Overview](#overview)  
+2. [Objectives](#objectives)  
+3. [Tools & Techniques](#tools--techniques)  
+4. [Key Activities](#key-activities)  
+5. [Outcome](#outcome)  
+6. [How to Reproduce](#how-to-reproduce)  
 
-    <h2>Tools &amp; Techniques</h2>
-    <ul>
-      <li><a href="https://www.zaproxy.org/" target="_blank">OWASP ZAP</a> – Automated vulnerability scanning.</li>
-      <li><a href="https://portswigger.net/burp" target="_blank">Burp Suite</a> – Intercepting proxy for manual testing.</li>
-      <li>Manual Testing – In-depth analysis of application behavior.</li>
-      <li>Kali Linux – Penetration testing environment.</li>
-    </ul>
+---
 
-    <h2>Key Activities</h2>
-    <ul>
-      <li>Conducted assessments to uncover security flaws such as SQL Injection, Cross-Site Scripting (XSS), and Broken Authentication.</li>
-      <li>Exploited identified vulnerabilities to evaluate their impact on the application and users.</li>
-      <li>Compiled detailed reports with actionable remediation steps.</li>
-    </ul>
+## Overview
 
-    <h2>Outcome</h2>
-    <ul>
-      <li>Developed a comprehensive understanding of web application security.</li>
-      <li>Enhanced proficiency in using industry-standard penetration testing tools.</li>
-      <li>Produced a detailed report outlining findings and recommendations.</li>
-    </ul>
+During my internship at Intern Intelligence, I completed Task One of the Web Application Penetration Testing track on the TryHackMe platform. This hands‑on lab simulates real‑world web application vulnerabilities, allowing me to practice identifying and exploiting common security flaws in a controlled environment.
 
-    <h2>Report</h2>
-    <p>
-      The full penetration testing report, including methodologies, findings, and remediation strategies, is available upon request.
-    </p>
+## Objectives
 
-    <div class="footer">
-      <p>© 2025 Washington Adiado</p>
-    </div>
-  </div>
-</body>
-</html>
+- **Identify common web application vulnerabilities**: Discover flaws such as SQL Injection, Cross-Site Scripting (XSS), and Broken Authentication.  
+- **Exploit discovered vulnerabilities**: Demonstrate impact and potential risks by exploiting each flaw.  
+- **Document findings**: Produce clear, actionable reports with remediation recommendations.
+
+## Tools & Techniques
+
+- **OWASP ZAP**: Automated vulnerability scanning.  
+- **Burp Suite**: Intercepting proxy for manual testing and detailed traffic analysis.  
+- **Manual Testing**: Tailored payload crafting and logic validation.  
+- **Kali Linux**: Dedicated penetration testing environment with pre-installed tools.
+
+## Key Activities
+
+1. **Assessment & Scanning**  
+   - Launched OWASP ZAP to perform an initial scan of the application.  
+   - Analyzed scan results to prioritize high-risk endpoints.
+
+2. **Manual Testing & Exploitation**  
+   - Used Burp Suite to intercept requests and manipulate parameters.  
+   - Exploited SQL Injection by injecting SQL payloads into form fields.  
+   - Identified XSS vulnerabilities and tested payloads to confirm client‑side script execution.  
+   - Tested authentication flows to uncover Broken Authentication weaknesses.
+
+3. **Reporting & Documentation**  
+   - Compiled all findings into a structured report.  
+   - Provided remediation recommendations for each identified issue, following OWASP guidelines.
+
+## Outcome
+
+- Gained hands‑on experience identifying and exploiting key web application vulnerabilities.  
+- Enhanced proficiency with OWASP ZAP and Burp Suite in a real‑world scenario.  
+- Delivered a comprehensive report detailing vulnerabilities, impacts, and remediation steps.
+
+## How to Reproduce
+
+1. Sign up for an account on [TryHackMe](https://tryhackme.com).  
+2. Enroll in the **Web Application Penetration Testing** room.  
+3. Follow the lab instructions to complete Task One.  
+4. Use the tools and techniques described above to verify findings.
+
+---
+
+*Report generated by [Your Name], Intern – Intern Intelligence*
+
 
